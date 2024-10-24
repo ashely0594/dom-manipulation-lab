@@ -1,7 +1,5 @@
-import "./styles.css";
-
 // Menu data structure
-var menuLinks = [
+const menuLinks = [
     { text: 'about', href: '/about' },
     { text: 'catalog', href: '/catalog' },
     { text: 'orders', href: '/orders' },
@@ -23,7 +21,7 @@ mainEl.classList.add("flex-ctr");
 
 //creating a Menu Bar
 
-const topMenuEl = document.querySelector("#top_menu");
+const topMenuEl = document.querySelector("#top-menu");
 topMenuEl.style.height = "100%";
 
 topMenuEl.style.backgroundColor = "#0e9aa7";
